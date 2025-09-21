@@ -9,7 +9,7 @@ st.caption("Chloe Tabourian - MSBA 325")
 
 
 st.subheader("Evolution of the university education gender parity index across time, in Lebanon")
-df_dev = pd.read_csv("data/Social development.csv")
+df_dev = pd.read_csv("data/Social_Development.csv")
 df_dev["refPeriod"] = pd.to_numeric(df_dev["refPeriod"], errors="coerce")
 df_dev["Value"] = pd.to_numeric(df_dev["Value"], errors="coerce")
 
